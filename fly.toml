@@ -1,4 +1,4 @@
-app = "remix-heavy-metal"
+app = "heavy-metal-template"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = [ ]

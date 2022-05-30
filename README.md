@@ -1,6 +1,6 @@
 # Remix Heavy MetalStack
 
-![The Remix Blues Stack](https://variety.com/wp-content/uploads/2016/03/metallica.jpg)
+![The Remix Heavy Metal Stack](https://variety.com/wp-content/uploads/2016/03/metallica.jpg)
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
