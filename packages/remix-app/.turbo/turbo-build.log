@@ -1,0 +1,31 @@
+remix-heavy-metal-dba2:build: cache hit, replaying output [2m86e3a120e3f6844f[0m
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m> build
+[33mremix-heavy-metal-dba2:build: [0m> run-s build:*
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m> build:css
+[33mremix-heavy-metal-dba2:build: [0m> npm run generate:css -- --minify
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m> generate:css
+[33mremix-heavy-metal-dba2:build: [0m> tailwindcss -o ./app/styles/tailwind.css "--minify"
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0mDone in 196ms.
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m> build:remix
+[33mremix-heavy-metal-dba2:build: [0m> remix build
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0mBuilding Remix app in production mode...
+[33mremix-heavy-metal-dba2:build: [0mThe path "rust-functions" is imported in app/rust.server.ts but rust-functions is not listed in your package.json dependencies. Did you forget to install it?
+[33mremix-heavy-metal-dba2:build: [0mThe path "napi-rust-functions" is imported in app/rust.server.ts but napi-rust-functions is not listed in your package.json dependencies. Did you forget to install it?
+[33mremix-heavy-metal-dba2:build: [0mBuilt in 187ms
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m> build:server
+[33mremix-heavy-metal-dba2:build: [0m> esbuild --platform=node --format=cjs ./server.ts --outdir=build
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m  build/server.js  3.2kb
+[33mremix-heavy-metal-dba2:build: [0m
+[33mremix-heavy-metal-dba2:build: [0m⚡ Done in 5ms

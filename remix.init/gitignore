@@ -1,0 +1,20 @@
+node_modules
+
+/build
+/public/build
+.env
+
+/cypress/screenshots
+/cypress/videos
+/postgres-data
+
+/app/styles/tailwind.css
+
+.DS_Store
+*/public/*
+*/build/*
+
+// Don't include Rust compiled files
+*/target/
+*/__test__/*
+*/npm/*
